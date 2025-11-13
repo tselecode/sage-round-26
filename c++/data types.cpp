@@ -3,7 +3,9 @@
 using namespace std;
 
 int main(){
-	int age = 19;
+	
+	const int age = 19;
+	age = 19;
 	float cost = 19.5;
 	double pi = 19.56453206547873d;
 	char dollar = '$';
