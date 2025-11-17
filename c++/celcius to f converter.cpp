@@ -7,5 +7,4 @@ cout<<"enter temprature: ";
 cin>>celscius ;
  fahraniet = (celscius * 1.8) + 32;
 cout<<fahraniet;
-return 0;
 }
