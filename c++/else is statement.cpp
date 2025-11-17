@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-	int age = 4;
+	int age = 12;
 	
 	if (age >= 18){
 		cout<<"adult";
@@ -12,4 +12,6 @@ int main(){
 	else{
 		cout<<"child";
 	}
+	
+	return 0;
 }
