@@ -2,8 +2,10 @@
 using namespace std;
 
 int main(){
-	double number = 0;
-	
+	double number ;
+	cout<<"enter number: "<<endl;
+	cin>>number;
+
 	if (number>0){
 		cout<<"positive number"<<endl;
 		
