@@ -5,7 +5,7 @@ int main(){
 	int i=-9;
 	do{
 		cout<<i<<endl;
-		i++;
+		i+=2;
 	}
 	while(i<=5);
 		
