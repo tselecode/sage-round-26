@@ -2,10 +2,8 @@
 using namespace std;
 
 int main(){
-	int i=1;
-	
-	while(i<=5){
+	for(int i=1 ; i<=5 ; i++){
+		if(i==3) break;
 		cout<<i<<endl;
-		i++;
 	}
 	}
