@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int sum(int x , int y ){
+int multiply(int x , int y ){
 	int result = x * y;
 	return result ; 
 	
@@ -10,12 +10,12 @@ int sum(int x , int y ){
 int main(){
 	int x , y;
 	int result;
-	cout<<"enter number"<<endl;
+	cout<<"enter number: ";
 	cin>>x;
-	cout<<"enter number"<<endl;
+	cout<<"enter number: ";
 	cin>>y;
 	
-	result=sum( x ,  y );
+	result=multiply( x ,  y );
 	cout<<"equals = "<<result;
 
 }
