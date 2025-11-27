@@ -1,0 +1,17 @@
+h5 {
+  color: rgb(239, 246, 244);
+  background-color: rgb(231, 165, 83);
+}
+.title {
+  color: blue;
+}
+#titleid {
+  color: brown;
+}
+p,
+h6 {
+  color: rebeccapurple;
+}
+div a {
+  background-color: aqua;
+}
