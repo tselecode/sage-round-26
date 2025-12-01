@@ -3,12 +3,13 @@ using namespace std;
 
 int main(){
 	int numbers[3];
-	int smallest=0;
+	int smallest;
 	
 	for(int i=0 ;i<3 ; i++ ){
 		cout<<"enter number: ";
 		cin>>numbers[i];
 	}
+	smallest=numbers[0];
 	for(int i=0 ; i<3 ;i++){
 		if (smallest>numbers[i]){
 			smallest=numbers[i];

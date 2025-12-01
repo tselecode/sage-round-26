@@ -10,13 +10,13 @@ int sum2 = 0 ;
 int sum3= 0 ;
 
 for(int i = 0 ; i<3 ; i++){
-	sum = sum + num1[i];
+	sum += num1[i];
 }
 for(int i = 0 ; i<3 ; i++){
-	sum2 = sum + num2[i];
+	sum2 += num2[i];
 }
 for(int i = 0 ; i<3 ; i++){
-	sum3 = sum + num3[i];
+	sum3 +=  num3[i];
 }
 cout<<sum<<endl;
 cout<<sum2<<endl;
