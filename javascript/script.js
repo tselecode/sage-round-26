@@ -1,28 +1,54 @@
-let x = 1;
-let y = 1;
-
-console.log(x + y);
-
-function sum(x, y) {
-  return x * y;
-}
-console.log(sum(2, 6));
-let age = 19;
-if (age > 18) {
-  console.log("adult");
-} else {
-  console.log("child");
-}
-for (let i = 1; i <= 5; i++) {
-  console.log(i);
+function multiplyNum(x,y) {
+    console.log(x*y);
+    
 }
 
-let i = 1;
-while (i <= 5) {
-  console.log(i);
-  i++;
-}
-function changeText(){
-    let heading = document.getElementById('heading');
-    heading.innerText = "hello tselote";
-}
+multiplyNum(40,2)
+
+
+// let person = {name:"tselote eskias",
+//               age:19,
+//               address:{
+//                 country:"ethiopia",
+//                 city:"A.A",
+//                 subCity:"bole"
+//               }
+// }
+// console.log(person);
+// console.log(person.name);
+// console.log(person.address);
+// console.log(person.address.subCity);
+
+// function changeColor() {
+//   document.getElementById('heading').style.color = "red"
+// }
+
+// let name = "tselote"
+
+// console.log(name.trim());
+// console.log(name.slice(0,3));
+// console.log(name.concat( " eskias"));
+// console.log(name.toUpperCase());
+// console.log(name.at(3));
+
+
+//array
+
+let names = ["tselote", "eskias", "zemen"]
+names.push("nebyou")
+names.pop()
+names.pop()
+
+console.log(names);
+console.log(names);
+
+const date = new Date()
+console.log(date);
+
+
+//maths
+
+
+console.log(Math.round(1.5));
+console.log(Math.pow(2,5));
+

@@ -1,10 +1,8 @@
 #include <iostream>
 #include <ctime>
-int srand(int time){
-}
-int rand(){
+
 	
-}
+
 int main() {
 
     srand(time(0));
