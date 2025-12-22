@@ -1,9 +1,14 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
 .header_box {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 50px;
   padding: 16px 8px;
+  width: 100vw;
 }
 .header_links {
   padding-left: 50px;
@@ -40,8 +45,8 @@
 }
 .hero_section {
   position: relative;
-  max-width: 100%;
-  width: 1300px;
+
+  width: 100vw;
   height: 400px;
   padding: 96px 144px;
   display: flex;
@@ -75,8 +80,7 @@
   justify-content: center;
   text-transform: capitalize;
 }
-.home {
-}
+
 .illustration {
   position: absolute;
   top: 30px;
@@ -107,7 +111,7 @@
 }
 .clientlogos {
   display: flex;
-  width: 801px;
+  width: 75vw;
   height: 68px;
   justify-content: space-between;
   padding: 16px 8px;
@@ -129,7 +133,7 @@
   margin-top: 0px;
 }
 .associations {
-  width: 1000px;
+  width: 100vw;
   height: 196px;
   display: flex;
   justify-content: space-evenly;
@@ -212,7 +216,7 @@
   text-transform: capitalize;
 }
 .unlock {
-  width: 1000px;
+  width: 75vw;
   height: 400px;
   gap: 10px;
   display: flex;
@@ -242,9 +246,9 @@
 }
 .achievments {
   display: flex;
-  width: 1000px;
+  width: 100vw;
   height: 200px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 22px 48px;
   background-color: #f5f7fa;
 }
@@ -265,5 +269,137 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
-  gap: 5px;
+  gap: px;
+}
+.achieve_nums h1 {
+  color: #4d4d4d;
+}
+.achieve_nums p {
+  color: #717171;
+}
+
+.calender {
+  display: flex;
+  width: 75vw;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-left: 100px;
+}
+.calender h1 {
+  color: #4d4d4d;
+  text-transform: capitalize;
+}
+.calender p {
+  color: #717171;
+  margin-bottom: 30px;
+}
+.calender a {
+  text-decoration: none;
+  width: 60px;
+  height: 19px;
+  border-radius: 1.34px;
+  padding: 8px 20px;
+  background-color: #4caf4f;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.customers {
+  background-color: #f5f7fa;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+
+  gap: 26px;
+}
+.customers p {
+  font-size: 1.2rem;
+  color: #717171;
+}
+.customers h2 {
+  color: #4caf4f;
+  text-transform: capitalize;
+}
+
+.custom_logos {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+}
+.community_update {
+  width: 90vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: capitalize;
+  
+}
+.community_update h1 {
+  text-align: center;
+  color: #4d4d4d;
+}
+.community_update p {
+  width: 500px;
+  text-align: center;
+  text-indent: 20px;
+  color: #717171;
+}
+.community_update h3 {
+  color: #4caf4f;
+}
+.community_imgs {
+  display: flex;
+  justify-content: space-around;
+  gap: 0px;
+}
+.community_imgs div {
+  box-shadow: 0px 2.67px 5.34px 0px rgba(171, 190, 209, 0.4);
+}
+.get_demo{
+   width: 100vw;
+   height: 300px;
+   margin-top: 200px;
+   background-color: #f5f7fa;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.get_demo h1{
+  font-size: 3rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+.get_demo a{
+  background-color: #4caf4f;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffff;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  padding: 8px 22px;
+  font-size: 1.4rem;
+  border-radius: 4px;
+}
+
+.footer{
+  padding: 25px 60px;
+  width: 100vw;
+  height: 200px;
+background-color:#263238 ;
+}
+.company_info{
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+.company_info h3{
+  color: #ffffff;
+  font-size: 0.8rem;
 }
