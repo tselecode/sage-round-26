@@ -19,8 +19,7 @@ export default function App() {
       style={{
         flex: 1,
         justifyContent: "center",
-        marginTop: 30,
-        marginBottom: 40,
+       
       }}
     >
       <KeyboardAwareScrollView
@@ -164,7 +163,7 @@ export default function App() {
                   
                 }}
                 onPress={()=>{
-                  <ActivityIndicator size="medium" color="white"/>
+                  alert("succesfully completed")
                 }}
               >
                 <Text
