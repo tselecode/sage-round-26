@@ -16,9 +16,7 @@ return(
         <Button title="Fetch Data from Api" onPress={()=>{
             navigation.navigate("FetchData")
         }}/>
-        <Button title="Fetch photo" onPress={()=>{
-            navigation.navigate("FetchPhoto")
-        }}/>
+   
     </View>
 )
 }

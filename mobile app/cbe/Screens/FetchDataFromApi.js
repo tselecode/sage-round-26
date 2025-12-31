@@ -11,10 +11,10 @@ export default function FetchData() {
             .catch(() => {
                 setError(true)
             })
-    })
+    },[])
 
     if (data == undefined) {
-        return <View>
+        return <View style={{flex:1,justifyContent:"center",alignItems:"center"}}>
             {error? <Text>Error</Text> : <ActivityIndicator size='large' />}
 
 
